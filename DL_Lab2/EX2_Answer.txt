@@ -1,0 +1,17 @@
+Q1. What happens when the number of hidden nodes is increased?
+
+With too few nodes (1–2), the model underfits → very simple boundary, low accuracy.
+
+With more nodes (5, 20, 50), the model fits more complex shapes → accuracy goes up.
+
+Very large hidden layers may cause overfitting or unstable results.
+
+
+
+Q2. What can you say about the accuracy pattern?
+
+Accuracy usually increases as hidden units increase, but not strictly linearly.
+
+After some point, gains are small (diminishing returns).
+
+Sometimes accuracy fluctuates because of initialization, learning rate, or overfitting.
